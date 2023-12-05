@@ -1,4 +1,4 @@
-A two-circuit approach to reducing quantum resources for the quantum lattice Boltzmann method
+A resource frugal quantum lattice Boltzmann method
 ==========
 
 Code for reproducing the results of the "A two-circuit approach to reducing quantum resources for the quantum lattice Boltzmann method" paper
