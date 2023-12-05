@@ -7,18 +7,13 @@ _Authors: Sriharsha Kocherla, Austin Adams, Zhixin Song, Alexander Alexeev, Spen
 
 Files
 -----
- * `advectionDiffusion/`: Contains code for solving the advection--difusion equation
-   * `QuantumD1Q2.ipynb`
-   * `d1q2/`: Output data of QuantumD1Q2.ipynb simulations for each timestep
-   * `QuantumD1Q3.ipynb`
-   * `d1q3/`: Output data of QuantumD1Q3.ipynb simulations for each timestep
-   * `QuantumD2Q5.ipynb`
-   * `d2q5/`: Output data of QuantumD2Q5.ipynb simulations for each timestep for testing
-   * `visualizations/`: contains graphs and circuits
- * `twoCircuitLBM.ipynb`
- * `twoCircuitResults/`: Output data of twoCircuitLBM.ipynb simulations for each timestep
- * `oneCircuitLBM.ipynb`
- * `oneCircuitResults/`: Output data of oneCircuitLBM.ipynb simulations for each timestep
- * `classicalLBM.ipynb`
- * `classicalResults/`: Output data of classicalLBM.ipynb simulations for each timestep for testing
- * `visualizations/`: Contains graphs, error analysis, and quantum circuit drawings
+ * `advectionDiffusion/`: Contains code for solving the advection--diffusion equation
+   * `QuantumD1Q2.ipynb`: D1Q2 QLBM advection--diffusion simulation
+   * `QuantumD1Q3.ipynb`: D1Q3 QLBM advection--diffusion simulation
+   * `QuantumD2Q5.ipynb`: D2Q5 QLBM advection--diffusion simulation
+ * `twoCircuitLBM.ipynb`: Two-circuit QLBM 2D-lid driven cavity flow simulation
+ * `oneCircuitLBM.ipynb`: Single-circuit QLBM 2D-lid driven cavity flow simulation
+ * `classicalLBM.ipynb`: Classical LBM 2D-lid driven cavity flow simulation
+ * `visualizations/`: Contains code for graphing and visualizing results
+   * `errorAnalysis.ipynb`: Graphs error plots from output files
+   * `graphics.ipynb`: Graphs results from output files
