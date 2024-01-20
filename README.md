@@ -1,7 +1,8 @@
 ## A resource frugal quantum lattice Boltzmann method
 
-Code for reproducing the results of the manuscript "A two-circuit approach to reducing quantum resources for the quantum lattice Boltzmann method"
+Code for reproducing results from:
 
+__A two-circuit approach to reducing quantum resources for the quantum lattice Boltzmann method__  
 _Authors: Sriharsha Kocherla, Austin Adams, Zhixin Song, Alexander Alexeev, Spencer H. Bryngelson_  
 Georgia Institute of Technology, Atlanta, GA USA 30332
 
