@@ -1,6 +1,6 @@
 ## A resource frugal quantum lattice Boltzmann method
 
-Code for reproducing results from:
+Code for reproducing results from preprint:
 
 __A two-circuit approach to reducing quantum resources for the quantum lattice Boltzmann method__  
 _Authors: Sriharsha Kocherla, Austin Adams, Zhixin Song, Alexander Alexeev, Spencer H. Bryngelson_  
