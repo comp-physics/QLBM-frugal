@@ -2,8 +2,7 @@
 
 Code for reproducing the results of the manuscript "A two-circuit approach to reducing quantum resources for the quantum lattice Boltzmann method"
 
-_Authors: Sriharsha Kocherla, Austin Adams, Zhixin Song, Alexander Alexeev, Spencer H. Bryngelson_
-
+_Authors: Sriharsha Kocherla, Austin Adams, Zhixin Song, Alexander Alexeev, Spencer H. Bryngelson_  
 Georgia Institute of Technology
 
 ### Files
@@ -17,3 +16,7 @@ Georgia Institute of Technology
  * `visualizations/`: Contains code for graphing and visualizing results
    * `errorAnalysis.ipynb`: Graphs error plots from output files
    * `graphics.ipynb`: Graphs results from output files
+
+### License
+
+MIT
