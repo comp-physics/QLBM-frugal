@@ -17,7 +17,7 @@ Georgia Institute of Technology, Atlanta, GA USA 30332
 
 It can be cited as
 ```bibtex
-@article{kocherla24_2,
+@article{kocherla24,
   author = {Kocherla, S. and Adams, A. and Song, Z. and Alexeev, A. and Bryngelson, S. H.},
   title = {A two-circuit approach to reducing quantum resources for the quantum lattice {B}oltzmann method},
   journal = {arXiv preprint arXiv 2401.12248},
