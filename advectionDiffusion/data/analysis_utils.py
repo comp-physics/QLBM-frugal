@@ -34,7 +34,7 @@ def counts_to_statevector(counts):
         raise Exception("Can not convert empty dictionary to Statevector")
     
     if len(list(counts.keys())) != pow(2, len(list(counts.keys())[0])):
-        counts = correct_counts(counts)
+        counts = correct_counts(counts, len(list(counts.keys())[0]))
 
     if list(counts.keys()) != list(counts.keys()).sort():
         counts = sort_counts(counts)
