@@ -39,9 +39,6 @@ class StreamCircExperiment(BaseExperiment):
     def circuits(self) -> List[QuantumCircuit]:
         """Generate the list of circuits to be run."""
 
-        streamfunction = np.zeros((M,M))
-        vorticity = np.zeros((M,M))
-
         sCirc = streamCirc()
         
         circuits = []
@@ -73,13 +70,13 @@ class VortCircExperiment(BaseExperiment):
         """Generate the list of circuits to be run."""
 
         streamfunction = np.zeros((M,M))
-        vorticity = np.zeros((M,M))
 
         vCirc = vortCirc(streamfunction)
         
         circuits = []
-        # Generate circuits and populate metadata here
+        # TODO: add meta data for circuits
         circuits.append(vCirc)
+        
         return circuits
 
     @classmethod
