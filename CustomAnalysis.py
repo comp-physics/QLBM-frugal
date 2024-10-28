@@ -1,6 +1,7 @@
 from qiskit_experiments.framework import BaseAnalysis, AnalysisResultData
+from qiskit_experiments.framework import Options
 
-class Analysis(BaseAnalysis):
+class CustomAnalysis(BaseAnalysis):
     def _run_analysis(self, experiment_data):
     
         combined_counts = {}
@@ -40,3 +41,11 @@ class Analysis(BaseAnalysis):
         return "".join(reversed(
             [cls._swap_bit[b] if sig[- 1 - i] else b for i, b in enumerate(bitstring)]
         ))
+    
+    @classmethod
+    def _default_options(cls) -> Options:
+        options = super()._default_options()
+        options.dummy_analysis_option = None
+        options.plot = True
+        options.ax = None
+        return options
