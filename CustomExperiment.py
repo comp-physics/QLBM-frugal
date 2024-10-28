@@ -37,6 +37,7 @@ class CustomExperiment(BaseExperiment):
         # apply a measurement at the end of the circuit
         circuit.measure_all()
         circuit.metadata['label'] = label
+        circuit.metadata['nbits'] = circuit.num_qubits
 
         circuits = []
         circuits.append(circuit)
