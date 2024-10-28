@@ -9,11 +9,14 @@ class CustomExperiment(BaseExperiment):
             circuit,
             label="Default",
             backend=None,
+            physical_qubits=None,
             num_samples=10_000,
             seed=None
     ): 
-        physical_qubits = tuple(range(circuit.num_qubits))
-        measured_qubits = tuple(range(circuit.num_qubits))
+        if physical_qubits == None:
+            physical_qubits = tuple(range(circuit.num_qubits))
+
+        measured_qubits = physical_qubits
 
         analysis = CustomAnalysis()
 
@@ -41,6 +44,7 @@ class CustomExperiment(BaseExperiment):
 
         circuits = []
         circuits.append(circuit)
+        return circuits
 
     @classmethod
     def _default_experiment_options(cls):
