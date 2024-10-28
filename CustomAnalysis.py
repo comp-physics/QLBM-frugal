@@ -6,7 +6,7 @@ class CustomAnalysis(BaseAnalysis):
         combined_counts = {}
 
         # get counts
-        for datum in experiment_data:
+        for datum in experiment_data.data():
             counts = datum["counts"]
 
             for key, val in counts.items():
