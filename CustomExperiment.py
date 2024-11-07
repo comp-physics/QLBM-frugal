@@ -25,7 +25,7 @@ class CustomExperiment(BaseExperiment):
         self._circuit = circuit
         self._measured_qubits = measured_qubits
 
-        valid_labels = ['vorticity', 'stream']
+        valid_labels = ['vorticity', 'stream','single_circuit']
         if label in valid_labels:
             self._label = label
         else:
