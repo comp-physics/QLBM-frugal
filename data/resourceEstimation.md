@@ -21,6 +21,17 @@ Transpiled vorticity circuit ops on IBM Brisbane: OrderedDict({'rz': 174196, 'sx
 Transpiled stream circuit physical runtime = 49593.96 micro seconds
 Transpiled vort circuit physical runtime = 28423.60 micro seconds
 
+## Two Circuit LBM with Bounds
+Transpiled stream circuit w/ bounds depth on IBM Brisbane: 286995
+Transpiled vorticity circuit w/ bounds depth on IBM Brisbane: 804078
+
+Transpiled stream circuit ops w/ bounds on IBM Brisbane: OrderedDict({'rz': 246986, 'sx': 149665, 'ecr': 75640, 'x': 8915, 'barrier': 3})
+Transpiled vorticity circuit ops w/ bounds on IBM Brisbane: OrderedDict({'rz': 701937, 'sx': 421462, 'ecr': 208688, 'x': 29926, 'barrier': 4})
+
+Transpiled stream circuit physical runtime = 52241.26 micro seconds
+Transpiled vorticity circuit physical runtime = 137028.30 micro seconds
+
+
 ## One Circuit LBM
 Circuit (no bounds): 61.560942397004005 quantum seconds
 
