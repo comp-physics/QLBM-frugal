@@ -18,3 +18,8 @@ Transpiled QLBM circuit depth on IBM Brisbane: 1268120
 Transpiled QLBM circuit ops on IBM Brisbane: OrderedDict({'rz': 1354893, 'sx': 859234, 'ecr': 424214, 'x': 47917, 'barrier': 6})
 Transpiled QLBM circuit physical runtime = 221209.08 micro seconds
 
+OUTPUT FOR: 2^5
+Transpiled QLBM circuit depth on IBM Brisbane: 3883490
+Transpiled QLBM circuit ops on IBM Brisbane: OrderedDict({'rz': 4061236, 'sx': 2585836, 'ecr': 1251404, 'x': 133512, 'barrier': 6})
+Transpiled QLBM circuit physical runtime = 673897.56 micro seconds
+
