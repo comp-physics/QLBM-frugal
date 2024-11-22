@@ -1,0 +1,129 @@
+1
+Iteration 0
+1 depth: 761
+1 counts: OrderedDict({'rz': 794, 'sx': 568, 'ecr': 197, 'x': 5})
+1 time: 118.86000000000001
+
+Iteration 1
+1 depth: 754
+1 counts: OrderedDict({'rz': 683, 'sx': 411, 'ecr': 192, 'x': 40})
+1 time: 127.56
+
+Iteration 2
+1 depth: 680
+1 counts: OrderedDict({'rz': 680, 'sx': 494, 'ecr': 160, 'x': 6})
+1 time: 106.56000000000002
+
+Iteration 3
+1 depth: 689
+1 counts: OrderedDict({'rz': 694, 'sx': 505, 'ecr': 160, 'x': 4})
+1 time: 106.74000000000001
+
+Iteration 4
+1 depth: 794
+1 counts: OrderedDict({'rz': 825, 'sx': 589, 'ecr': 201})
+1 time: 122.88000000000001
+
+2
+Iteration 0
+2 depth: 3146
+2 counts: OrderedDict({'rz': 3522, 'sx': 2483, 'ecr': 885, 'x': 29})
+2 time: 507.24000000000007
+
+Iteration 1
+2 depth: 3387
+2 counts: OrderedDict({'rz': 3617, 'sx': 2610, 'ecr': 905, 'x': 7})
+2 time: 542.7
+
+Iteration 2
+2 depth: 3068
+2 counts: OrderedDict({'rz': 3132, 'sx': 2288, 'ecr': 739, 'x': 19})
+2 time: 481.50000000000006
+
+Iteration 3
+2 depth: 3489
+2 counts: OrderedDict({'rz': 3321, 'sx': 2000, 'ecr': 945, 'x': 187})
+2 time: 596.46
+
+Iteration 4
+2 depth: 3143
+2 counts: OrderedDict({'rz': 3449, 'sx': 2444, 'ecr': 855, 'x': 31})
+2 time: 499.4400000000001
+
+3
+Iteration 0
+3 depth: 12980
+3 counts: OrderedDict({'rz': 12475, 'sx': 7427, 'ecr': 3312, 'x': 704})
+3 time: 2055.48
+
+Iteration 1
+3 depth: 14299
+3 counts: OrderedDict({'rz': 14732, 'sx': 9030, 'ecr': 4135, 'x': 811})
+3 time: 2400.9
+
+Iteration 2
+3 depth: 13813
+3 counts: OrderedDict({'rz': 16062, 'sx': 11152, 'ecr': 4177, 'x': 184})
+3 time: 2284.44
+
+Iteration 3
+3 depth: 13321
+3 counts: OrderedDict({'rz': 13932, 'sx': 9996, 'ecr': 3290, 'x': 55})
+3 time: 2073.9
+
+Iteration 4
+3 depth: 13825
+3 counts: OrderedDict({'rz': 15014, 'sx': 9143, 'ecr': 4145, 'x': 668})
+3 time: 2239.1400000000003
+
+4
+Iteration 0
+4 depth: 52877
+4 counts: OrderedDict({'rz': 58095, 'sx': 41115, 'ecr': 13709, 'x': 548})
+4 time: 8152.68
+
+Iteration 1
+4 depth: 55984
+4 counts: OrderedDict({'rz': 59390, 'sx': 33569, 'ecr': 15994, 'x': 3308})
+4 time: 8954.34
+
+Iteration 2
+4 depth: 56891
+4 counts: OrderedDict({'rz': 61911, 'sx': 39631, 'ecr': 15648, 'x': 1367})
+4 time: 8825.22
+
+Iteration 3
+4 depth: 50998
+4 counts: OrderedDict({'rz': 57308, 'sx': 29942, 'ecr': 16871, 'x': 4610})
+4 time: 8878.98
+
+Iteration 4
+4 depth: 56469
+4 counts: OrderedDict({'rz': 60947, 'sx': 37523, 'ecr': 15154, 'x': 2374})
+4 time: 9416.500000000002
+
+5
+Iteration 0
+5 depth: 209036
+5 counts: OrderedDict({'rz': 232418, 'sx': 161940, 'ecr': 56000, 'x': 4375})
+5 time: 32649.24
+
+Iteration 1
+5 depth: 236840
+5 counts: OrderedDict({'rz': 238901, 'sx': 146691, 'ecr': 60780, 'x': 9037})
+5 time: 35862.54000000001
+
+Iteration 2
+5 depth: 216602
+5 counts: OrderedDict({'rz': 230148, 'sx': 158243, 'ecr': 55727, 'x': 4696})
+5 time: 34007.880000000005
+
+Iteration 3
+5 depth: 204844
+5 counts: OrderedDict({'rz': 199748, 'sx': 115903, 'ecr': 53110, 'x': 11696})
+5 time: 33236.28
+
+Iteration 4
+5 depth: 189299
+5 counts: OrderedDict({'rz': 210914, 'sx': 107765, 'ecr': 61350, 'x': 20879})
+5 time: 32290.020000000004
