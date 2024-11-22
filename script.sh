@@ -1,4 +1,5 @@
 #SBATCH -ECR-counts
+#SBATCH --ntasks=7
 #SBATCH -N1 --cpus-per-task=4  
 #SBATCH --mem-per-cpu=8G  
 #SBATCH -t 10:00:00  
@@ -14,17 +15,12 @@ echo "Running job"
 
 source /nethome/mlee769/miniconda3/bin/activate qiskit1
 
-echo 64
-python runQLBMCircuit.py --nlattice 64 --outdir "data/" &
-# python runQLBMCircuit.py --nlattice 128 --outdir "data/" &
-# python runQLBMCircuit.py --nlattice 256 --outdir "data/" &
-# python runQLBMCircuit.py --nlattice 512 --outdir "data/" &
-# python runQLBMCircuit.py --nlattice 1024 --outdir "data/" & 
-# python runQLBMCircuit.py --nlattice 2048 --outdir "data/" &
-# python runQLBMCircuit.py --nlattice 4096 --outdir "data/" 
-wait
-# for n in 64 128 256 512 1024 2048 4096;
-# do
-#     echo $n
-#     python runQLBMCircuit.py --nlattice $n --outdir "data/"
-# done
+srun --ntasks=1 --nodes=1 --cpus-per-task=$SLURM_CPUS_PER_TASK echo 64; python runQLBMCircuit.py --nlattice 64 --outdir "data/" &
+srun --ntasks=1 --nodes=1 --cpus-per-task=$SLURM_CPUS_PER_TASK echo 128; python runQLBMCircuit.py --nlattice 128 --outdir "data/" &
+srun --ntasks=1 --nodes=1 --cpus-per-task=$SLURM_CPUS_PER_TASK echo 256; python runQLBMCircuit.py --nlattice 256 --outdir "data/" &
+srun --ntasks=1 --nodes=1 --cpus-per-task=$SLURM_CPUS_PER_TASK echo 512; python runQLBMCircuit.py --nlattice 512 --outdir "data/" &
+srun --ntasks=1 --nodes=1 --cpus-per-task=$SLURM_CPUS_PER_TASK echo 1024; python runQLBMCircuit.py --nlattice 1024 --outdir "data/" &
+srun --ntasks=1 --nodes=1 --cpus-per-task=$SLURM_CPUS_PER_TASK echo 2048; python runQLBMCircuit.py --nlattice 2048 --outdir "data/" &
+srun --ntasks=1 --nodes=1 --cpus-per-task=$SLURM_CPUS_PER_TASK echo 4096; python runQLBMCircuit.py --nlattice 4096 --outdir "data/"
+
+echo "DONE"
