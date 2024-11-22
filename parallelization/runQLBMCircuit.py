@@ -3,11 +3,18 @@ import twoCircuitTools
 import pickle as pkl
 import numpy as np
 
+from qiskit_ibm_runtime import QiskitRuntimeService, SamplerV2 as Sampler
+from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
+from qiskit_ibm_runtime.fake_provider import FakeBrisbane
+from qiskit import schedule
+
 parser = argparse.ArgumentParser(description="Simon's algorithm using Qiskit.")
 parser.add_argument('--nlattice', type=int, default=16, help='Number of lattice points')
 parser.add_argument('--outdir', type=str, default="data/", help="Path to output file")
 
 def main(M):
+    service = QiskitRuntimeService()
+    
     backend = FakeBrisbane()
 
     vorticity = np.zeros((M,M))
