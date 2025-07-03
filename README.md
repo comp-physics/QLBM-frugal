@@ -12,17 +12,19 @@
 Code for reproducing results from preprint:
 
 __A two-circuit approach to reducing quantum resources for the quantum lattice Boltzmann method__  
-_Authors: Sriharsha Kocherla, Austin Adams, Zhixin Song, Alexander Alexeev, Spencer H. Bryngelson_  
+_Authors: Melody Lee, Zhixin Song, Sriharsha Kocherla, Austin Adams, Alexander Alexeev, Spencer H. Bryngelson_  
 Georgia Institute of Technology, Atlanta, GA USA 30332
 
 It can be cited as
 ```bibtex
-@article{kocherla24,
-  author = {Kocherla, S. and Adams, A. and Song, Z. and Alexeev, A. and Bryngelson, S. H.},
-  title = {A two-circuit approach to reducing quantum resources for the quantum lattice {B}oltzmann method},
-  journal = {arXiv preprint arXiv 2401.12248},
-  doi = {10.48550/arXiv.2401.12248},
-  year = {2024}
+@article{lee25,
+  author = {Lee, M. and Song, Z. and Kocherla, S. and Adams, A. and Alexeev, A. and Bryngelson, S. H.},
+  title = {A multiple-circuit approach to quantum resource reduction with application to the quantum lattice {B}oltzmann method},
+  doi = {10.1016/j.future.2025.107975},
+  journal = {Future Generation Computing Systems},
+  pages = {107975},
+  volume = {174},
+  year = {2026}
 }
 ```
 
