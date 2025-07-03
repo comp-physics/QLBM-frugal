@@ -4,15 +4,16 @@
 <a href="https://lbesson.mit-license.org/">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
 </a>
-<a href="http://doi.org/10.48550/arXiv.2401.12248">
-  <img src="http://img.shields.io/badge/DOI-10.48550/arXiv.2401.12248-B31B1B.svg" />
+<a href="https://doi.org/10.1016/j.future.2025.107975">
+  <img src="https://img.shields.io/badge/DOI-10.1016/j.future.2025.107975-blue.svg" />
 </a>
 </p>
 
-Code for reproducing results from preprint:
+Code for reproducing results from the paper:
 
 __A two-circuit approach to reducing quantum resources for the quantum lattice Boltzmann method__  
 _Authors: Melody Lee, Zhixin Song, Sriharsha Kocherla, Austin Adams, Alexander Alexeev, Spencer H. Bryngelson_  
+Future Generation Computing Systems, _174_ 107975 (2026)  
 Georgia Institute of Technology, Atlanta, GA USA 30332
 
 It can be cited as
