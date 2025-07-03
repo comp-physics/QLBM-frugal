@@ -11,7 +11,7 @@
 
 Code for reproducing results from the paper:
 
-__A two-circuit approach to reducing quantum resources for the quantum lattice Boltzmann method__  
+__A multiple-circuit approach to quantum resource reduction with application to the quantum lattice Boltzmann method__  
 _Authors: Melody Lee, Zhixin Song, Sriharsha Kocherla, Austin Adams, Alexander Alexeev, Spencer H. Bryngelson_  
 Future Generation Computing Systems, _174_ 107975 (2026)  
 Georgia Institute of Technology, Atlanta, GA USA 30332
